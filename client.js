@@ -1,7 +1,7 @@
 window.TrelloPowerUp.initialize({
   'card-buttons': function(t, options) {
     return [{
-      text: '📌 Ativar Pixel',
+      text: '3. 📌 Ativar Pixel',
       callback: function(t) {
         return t.card('id')
           .then(function(card) {
